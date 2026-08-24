@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Muslim Policy OS — Settings</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 560px;
+    margin: 40px auto;
+    color: #1a1c22;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+  h1 { font-size: 18px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 18px 0 6px; }
+  input[type=password], select {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #cfd3da;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  button {
+    margin-top: 16px;
+    background: #3a7bfd;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  p.note { font-size: 12px; color: #667; }
+  #saveMsg { font-size: 12.5px; color: #2a8f4f; margin-top: 10px; }
+  a { color: #3a7bfd; }
+</style>
+</head>
+<body>
+  <h1>Muslim Policy OS — Settings</h1>
+  <p class="note">
+    This extension uses Google Gemini's free API tier. The key is stored only in this
+    browser's local extension storage and is sent only to
+    <code>generativelanguage.googleapis.com</code>.
+  </p>
+
+  <label for="apiKey">Google AI Studio API Key</label>
+  <input type="password" id="apiKey" placeholder="AIza..." autocomplete="off" />
+  <p class="note">Get a free key at <a href="https://aistudio.google.com/apikey" target="_blank">aistudio.google.com/apikey</a>. The free tier has daily rate limits but no cost.</p>
+
+  <label for="model">Model</label>
+  <select id="model">
+    <option value="gemini-3.6-flash">Gemini 3.6 Flash (recommended, stable)</option>
+    <option value="gemini-3.7-flash">Gemini 3.7 Flash (newest)</option>
+    <option value="gemini-3.5-flash-lite">Gemini 3.5 Flash-Lite (cheapest/fastest)</option>
+  </select>
+
+  <label style="display:flex;align-items:center;gap:8px;font-weight:600;">
+    <input type="checkbox" id="notificationsEnabled" style="width:auto;" />
+    Show a system notification when a directly-relevant bill is detected
+  </label>
+  <p class="note">
+    The toolbar icon always shows a badge (!) when a bill is found — this adds an
+    optional pop-up notification on top of that, only for higher-severity direct
+    matches, to avoid alert fatigue from routine scans.
+  </p>
+
+  <button id="saveBtn">Save Settings</button>
+  <div id="saveMsg"></div>
+
+  <hr style="margin-top:32px;border:none;border-top:1px solid #eee;" />
+  <p class="note">
+    <strong>How auto-scan works:</strong> every time you visit a page, the extension reads
+    its visible text locally in your browser and checks it against a list of
+    legislative-sounding keywords (bill, act, senate, ordinance, statute, etc.) — this
+    check never leaves your computer. Only pages that pass this check are sent to
+    Gemini for full analysis, which keeps routine browsing (email, shopping, social
+    media) from using your API quota. You can turn auto-scan off entirely from the
+    toggle in the popup, or force-analyze any individual page with "Analyze Anyway"
+    even if the local check found nothing.
+  </p>
+  <p class="note">
+    <strong>Privacy exclusions:</strong> webmail (Gmail, Outlook, Yahoo Mail, Proton, iCloud),
+    banking/payment sites, healthcare/patient portals, and private-messaging sites
+    (Messenger, WhatsApp Web, Telegram Web) are never auto-scanned at all — the
+    extension skips reading their content entirely, regardless of what the keyword
+    filter would have matched. This runs before any page text is read, so it's not
+    something the keyword filter alone could catch.
+  </p>
+  <p class="note">
+    <strong>What this tool does:</strong> it identifies any law or bill discussed on a page
+    and summarizes Muslim Impact (how it could affect Muslim communities), Muslim
+    Exposure (who specifically may be affected), Possible Actions (general civic steps),
+    and Key Deadlines (only when explicitly stated in the source). All output is
+    AI-generated analysis for research and advocacy purposes — it is not legal advice,
+    and any contact details, vote counts, or dates shown are only reproduced when they
+    appear explicitly in your source text, never invented.
+  </p>
+
+  <script src="options.js"></script>
+</body>
+</html>

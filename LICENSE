@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Muslim Policy OS Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT EXCEPTION — this MIT license does NOT apply to `usa-map-data.js`.
+
+That single file contains US state boundary path data extracted from the
+`@svg-maps/usa` npm package (v2.0.0) by Victor Cazanave
+(https://github.com/VictorCazanave/svg-maps), which is licensed under
+CC BY-NC 4.0 (Attribution-NonCommercial):
+https://creativecommons.org/licenses/by-nc/4.0/
+
+That means, for `usa-map-data.js` specifically:
+  - Attribution to Victor Cazanave is required if you share this project
+  - It may NOT be used for commercial purposes without the author's separate
+    permission — this is a real restriction on this repository as a whole if
+    you intend any commercial use; you would need to replace that file with a
+    differently-licensed or self-drawn map dataset first
+
+See NOTICE.md for the full disclosure of every AI tool, dataset, and
+pre-existing dependency used in this project.
