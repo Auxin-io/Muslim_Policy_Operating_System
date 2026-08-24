@@ -1,3 +1,14 @@
+# 🚀 Vision
+The long-term vision of the **Muslim Policy Operating System** is to create a unified policy intelligence platform that continuously monitors legislative activity across all **50 US states** and transforms complex policy information into clear, actionable insights for Muslim communities.
+
+**🕌 Muslim Policy Operating System**
+> *The intelligence layer for understanding policy.*
+
+**👁️ Muslim Policy Overwatch**
+> *Watch. Understand. Respond.*
+
+---
+
 # Muslim Policy Operating System (MPOS)
 There are a lot of misinformation and hate targeting Muslim population around the world. We have build an **Muslim Policy Operating System (MPOS)** designed to help users identify laws, bills, regulations, and policy developments that may affect Muslim communities across the United States. 
 
@@ -327,16 +338,4 @@ Edit the inline `<style>` section in `popup.html` to customise:
 - 📐 Layout
 - 🎨 Overall Overwatch appearance
 
----
 
-# 🚀 Vision
-
-The long-term vision of the **Muslim Policy Operating System** is to create a unified policy intelligence platform that continuously monitors legislative activity across all **50 US states** and transforms complex policy information into clear, actionable insights for Muslim communities.
-
-**🕌 Muslim Policy Operating System**
-
-> *The intelligence layer for understanding policy.*
-
-**👁️ Muslim Policy Overwatch**
-
-> *Watch. Understand. Respond.*
