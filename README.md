@@ -5,7 +5,7 @@ The long-term vision of the **Muslim Policy Operating System** is to create a un
 > *The intelligence layer for understanding policy.*
 
 **👁️ Muslim Policy Overwatch**
-> *Watch. Understand. Respond.*
+> *Passively Protect, Educatace, and Respond.*
 
 ---
 
