@@ -1,4 +1,4 @@
-# Muslim Policy OS — Chrome Extension (v3, everything in the popup)
+# Muslim Policy OS — Chrome Extension
 
 An AI-powered Chrome extension that automatically scans pages you visit for laws and
 bills, and shows how they may affect Muslim communities — **Muslim Impact**, **Muslim
