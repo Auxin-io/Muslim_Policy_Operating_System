@@ -1,10 +1,8 @@
 # Muslim Policy Operating System (MPOS)
-
-## 👁️ Muslim Policy Overwatch — Chrome Extension
-
 There are a lot of misinformation and hate targeting Muslim population around the world. We have build an **Muslim Policy Operating System (MPOS)** designed to help users identify laws, bills, regulations, and policy developments that may affect Muslim communities across the United States. 
 
-The mulsim polcy neginee can be consumed in multiple methods on Mobile, Desktop and AI based delviery channels, specifically, **Chrome Extension, Claude, Microsoft Copilot, or ChatGPT**. 
+## 👁️ Muslim Policy Overwatch — Chrome Extension
+The mulsim polcy neginee can be consumed in multiple methods on Mobile, Desktop and AI based delviery channels, specifically, **Chrome Extension, Claude, Microsoft Copilot, or ChatGPT**
 
 ### 🏗️ System Naming
 
