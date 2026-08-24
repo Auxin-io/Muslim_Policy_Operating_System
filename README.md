@@ -2,24 +2,13 @@
 
 ## 👁️ Muslim Policy Overwatch — Chrome Extension
 
-An **AI-powered policy monitoring and analysis system** designed to help users identify laws, bills, regulations, and policy developments that may affect Muslim communities across the United States.
+There are a lot of misinformation and hate targeting Muslim population around the world. We have build an **Muslim Policy Operating System (MPOS)** designed to help users identify laws, bills, regulations, and policy developments that may affect Muslim communities across the United States. 
 
-The core system is called the **Muslim Policy Operating System (MPOS)**.
-
-When accessed through a user-facing interface such as a **Chrome Extension, Claude, Microsoft Copilot, or ChatGPT**, the system operates as **Muslim Policy Overwatch**.
+The mulsim polcy neginee can be consumed in multiple methods on Mobile, Desktop and AI based delviery channels, specifically, **Chrome Extension, Claude, Microsoft Copilot, or ChatGPT**. 
 
 ### 🏗️ System Naming
 
-| Layer | Name |
-|---|---|
-| 🖥️ Core / Main System | **Muslim Policy Operating System (MPOS)** |
-| 👁️ AI Monitoring & Analysis Layer | **Muslim Policy Overwatch** |
-| 🌐 Chrome Extension | **Muslim Policy Overwatch** |
-| 🤖 ChatGPT Interface | **Muslim Policy Overwatch** |
-| 🧠 Claude Interface | **Muslim Policy Overwatch** |
-| 💼 Microsoft Copilot Interface | **Muslim Policy Overwatch** |
-
-> **In simple terms:**  
+> **Layers:**  
 > 🕌 **Muslim Policy Operating System** = The core policy intelligence platform  
 > 👁️ **Muslim Policy Overwatch** = The intelligent monitoring, detection, and analysis layer
 
