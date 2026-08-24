@@ -11,6 +11,15 @@ The long-term vision of the **Muslim Policy Operating System** is to create a un
 
 [▶️ Watch the Demo Video](https://www.youtube.com/watch?v=0Qkly1Ub6ac)
 
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/0Qkly1Ub6ac?autoplay=1&mute=1"
+        title="Demo Video"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+</iframe>
+
+
 ---
 
 # Muslim Policy Operating System (MPOS)
