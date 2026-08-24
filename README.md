@@ -1,7 +1,6 @@
 # 🚀 Vision
 The long-term vision of the **Muslim Policy Operating System** is to create a unified policy intelligence platform that continuously monitors legislative activity across all **50 US states** and transforms complex policy information into clear, actionable insights for Muslim communities.
 
-[![Watch the Demo](https://github.com/Auxin-io/Muslim_Policy_Operating_System/blob/main/demo/muslim-policy-os-demo.mp4)
 **🕌 Muslim Policy Operating System**
 > *The intelligence layer for understanding policy.*
 
