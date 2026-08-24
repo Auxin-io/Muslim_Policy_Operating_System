@@ -7,6 +7,10 @@ The long-term vision of the **Muslim Policy Operating System** is to create a un
 **👁️ Muslim Policy Overwatch**
 > *Passively Protect, Educatace, and Respond.*
 
+### 🎥 Demo Video (Auto‑Play)
+
+[▶️ Watch the Demo Video](https://www.youtube.com/watch?v=0Qkly1Ub6ac)
+
 ---
 
 # Muslim Policy Operating System (MPOS)
